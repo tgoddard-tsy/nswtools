@@ -1,0 +1,26 @@
+Package: nswtools
+Title: Tools for analysts in NSW Government
+Version: 0.0.0.9000
+Authors@R: 
+    person("Tyson", "Goddard", , "tyson.goddard@treasury.nsw.gov.au", role = c("aut", "cre"))
+Description: Includes common functions used in
+    time series analysis with dataframe objects in "long" format.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Depends: 
+    dplyr,
+    lubridate,
+    R (>= 4.1.0)
+Imports: 
+    mathjaxr,
+    zoo
+Suggests: 
+    knitr,
+    rmarkdown
+RdMacros: 
+    mathjaxr
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0
